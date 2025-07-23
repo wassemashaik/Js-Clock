@@ -1,0 +1,43 @@
+html {
+    background: #018ded url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d2e0437b-e1e1-481e-85ff-f17a1c70aef8/ddtkwc7-d7359bc6-58df-4c69-ae42-29d52a435a03.jpg/v1/fill/w_1192,h_670,q_70,strp/black_wallpaper_collection_from_jean_marc_denis__by_silvereyes1212_ddtkwc7-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZDJlMDQzN2ItZTFlMS00ODFlLTg1ZmYtZjE3YTFjNzBhZWY4XC9kZHRrd2M3LWQ3MzU5YmM2LTU4ZGYtNGM2OS1hZTQyLTI5ZDUyYTQzNWEwMy5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KkRnc_dRANZNR7Cx6GppXMCb6VNgVBcm1vVUZf0zWd4);
+}
+body {
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+} 
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid white;
+    border-radius: 50%;
+    margin: 50% auto;
+    position: relative;
+    padding: 2rem;
+    box-shadow: 
+    0 0 0px 4px rgba(0, 0, 0, 0.1)
+    inset 0 0 0 3px #efefef,
+    inset 0 0 10px black,
+    0 0 10px rgba(0,0,0,0.2)
+
+}
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+
+.hand{
+    width: 50%;
+    height: 6px;
+    background: white;
+    position: relative;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.9, 0.58, 1);
+}
